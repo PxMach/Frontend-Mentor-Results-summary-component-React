@@ -28,8 +28,3 @@ function App() {
 }
 
 export default App;
-/*<Evaluation
-        category="Reaction"
-        score={80}
-        icon="./assets/images/icon-reaction.svg"
-      />*/
