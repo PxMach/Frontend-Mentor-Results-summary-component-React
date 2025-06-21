@@ -142,12 +142,19 @@ body {
   background-color: var(--Dark_gray_blue);
   border-radius: 50px;
   border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background: linear-gradient(
+    var(--Light_slate_blue_background),
+    var(--Light_royal_blue_background)
+  );
 }
 
 @media (min-width: 600px) {
   body {
     min-height: 100vh;
-    background-color: var(--Light_lavender);
+    background-color: var(--Pale_blue);
   }
   main {
     display: flex;
